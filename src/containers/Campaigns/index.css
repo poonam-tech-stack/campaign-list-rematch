@@ -1,0 +1,65 @@
+@media screen and (max-width: 576px) {
+  .Campaigns .table th,
+  .Campaigns .table td {
+    padding: 0.2rem;
+  }
+}
+
+.Campaigns {
+  height: 100%;
+}
+
+.Campaigns .status-bubble {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.75em;
+  height: 0.75em;
+  border-radius: 50%;
+}
+
+.Campaigns .status-bubble.Active {
+  background: green;
+}
+
+.Campaigns .status-bubble.Inactive {
+  background: red;
+}
+
+.Campaigns .campaign-status {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Campaigns .table {
+  overflow-y: auto;
+  min-width: 700px;
+}
+
+.Campaigns .table .thead-dark th {
+  color: #fff;
+  background-color: #495057;
+  border-color: #495057;
+}
+
+.Campaigns .table th,
+.Campaigns .table td {
+  vertical-align: top;
+}
+
+.Campaigns .table th {
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.Campaigns .table td {
+  cursor: default;
+}
+
+.Campaigns .campaign-active {
+  min-width: 100px;
+}
+
+.Campaigns .campaign:hover {
+  background: #495057;
+  color: white !important;
+}

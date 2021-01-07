@@ -1,0 +1,11 @@
+.Header {
+  background: #0011a9;
+}
+
+.Header .header-title {
+  padding: 0.5em;
+  font-family: 'Lobster', sans-serif;
+  font-size: 1.2em;
+  color: white;
+  background: #0015d4;
+}

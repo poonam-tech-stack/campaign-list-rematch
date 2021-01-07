@@ -1,0 +1,7 @@
+.AppFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #0015d4;
+  color: white;
+}

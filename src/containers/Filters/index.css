@@ -1,0 +1,75 @@
+@media screen and (max-width: 769px) {
+  .FilterForm .show-filters:not(.displayed) {
+    display: block;
+  }
+
+  .FilterForm .filters-wrapper:not(.displayed) {
+    display: none;
+  }
+}
+
+.FilterForm {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.FilterForm label {
+  font-size: 18px;
+  margin-bottom: 0px !important;
+}
+
+.FilterForm .col {
+  padding: 0.2em;
+}
+
+.FilterForm .row {
+  text-align: center;
+  margin: 0;
+}
+
+.FilterForm .show-filters {
+  display: none;
+}
+
+.FilterForm .btn-show-filters {
+  padding: 0 1em !important;
+  margin: 0.1em 0;
+}
+
+.FilterForm .field .btn {
+  padding: 0 1em !important;
+  min-height: 1.75em;
+  min-width: 120px;
+  text-align: center;
+  margin: 0.1em 0.2em 0.1em 0;
+}
+
+.FilterForm .field .btn-reset {
+  min-width: 30px;
+}
+
+.FilterForm .field input[type='text'] {
+  width: 100%;
+}
+
+.FilterForm .form-control {
+  padding: 0 !important;
+  height: 1.75em;
+}
+
+.FilterForm .search-icon {
+  padding: 0.1em 0.5em;
+  background: #17a2b8;
+  height: 1.75em;
+  color: white;
+  vertical-align: middle;
+}
+
+.FilterForm .input-name {
+  border-radius: 0;
+}
+.start-dates {
+  margin-left: 20px !important;
+}
